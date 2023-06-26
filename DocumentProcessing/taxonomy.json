@@ -3,7 +3,7 @@
   "DocumentTypes": [
     {
       "DocumentTypeId": "NoGroup.NoCategory.SOW",
-      "Group": "",
+      "Group": "BDOD",
       "Category": "",
       "Name": "SOW",
       "OptionalUniqueIdentifier": "",
@@ -13,8 +13,213 @@
       },
       "Fields": [
         {
-          "FieldId": "NoGroup.NoCategory.SOW.isSynopsys",
-          "FieldName": "isSynopsys",
+          "FieldId": "NoGroup.NoCategory.SOW.SynopsysName",
+          "FieldName": "SynopsysName",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#9372b2"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.SOW.CustomerName",
+          "FieldName": "CustomerName",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#20389d"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.SOW.LegalAgreement",
+          "FieldName": "LegalAgreement",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#279aab"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.SOW.Date",
+          "FieldName": "Date",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b37710"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.SOW.OrderNumber",
+          "FieldName": "OrderNumber",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#c6c082"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.SOW.OrderDetails",
+          "FieldName": "OrderDetails",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "NoGroup.NoCategory.SOW.OrderDetails.ServiceName",
+              "FieldName": "ServiceName",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": ""
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.SOW.OrderDetails.ItemID",
+              "FieldName": "ItemID",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": ""
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.SOW.OrderDetails.Price",
+              "FieldName": "Price",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": ""
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#cb93a1"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.SOW.TotalFee",
+          "FieldName": "TotalFee",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#839fc4"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.SOW.ShipTo",
+          "FieldName": "ShipTo",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d9738f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.SOW.Signature",
+          "FieldName": "Signature",
           "IsMultiValue": false,
           "Type": "Boolean",
           "DeriveFieldsFormat": "",
@@ -23,11 +228,11 @@
           "Metadata": [
             {
               "Key": "Color",
-              "Value": "#038a18"
+              "Value": "#ad8d81"
             },
             {
               "Key": "Hotkey",
-              "Value": "y"
+              "Value": "g"
             }
           ],
           "RuleSet": null,
@@ -37,7 +242,7 @@
     },
     {
       "DocumentTypeId": "NoGroup.NoCategory.PO",
-      "Group": "",
+      "Group": "BDOD",
       "Category": "",
       "Name": "PO",
       "OptionalUniqueIdentifier": "",
@@ -69,7 +274,7 @@
         },
         {
           "FieldId": "NoGroup.NoCategory.PO.BillTo",
-          "FieldName": "BillTo",
+          "FieldName": "DeliverTo",
           "IsMultiValue": false,
           "Type": "Address",
           "DeriveFieldsFormat": "",
@@ -108,11 +313,134 @@
           ],
           "RuleSet": null,
           "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.PO.TotalAmount",
+          "FieldName": "TotalAmount",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#20389d"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "BDOD.NoCategory.POEF",
+      "Group": "BDOD",
+      "Category": "",
+      "Name": "POEF",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "BDOD.NoCategory.POEF.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "BDOD.NoCategory.POEF.AccountName",
+          "FieldName": "AccountName",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BDOD.NoCategory.POEF.Ammount",
+          "FieldName": "Ammount",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BDOD.NoCategory.POEF.OrderNumber",
+          "FieldName": "OrderNumber",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BDOD.NoCategory.POEF.Signature",
+          "FieldName": "Signature",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
         }
       ]
     }
   ],
-  "Groups": [],
+  "Groups": [
+    {
+      "Name": "BDOD",
+      "Categories": []
+    }
+  ],
   "SupportedLanguages": [
     {
       "Name": "Undetermined Language",
